@@ -1,0 +1,12 @@
+id: camera-mipi-csi-ov2710
+category: cameras
+
+title: OV2710
+summary: MIPI CSI camera module supporting 720p60 and 1080p30 capture.
+interface: [mipi, csi]
+
+specs:
+  sensor: OV2710
+  interface: MIPI CSI
+  configuration: SCCB/I2C
+  output_modes: 1280x720@60, 1920x1080@30
